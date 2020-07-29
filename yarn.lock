@@ -3402,11 +3402,6 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
-bson@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-0.2.2.tgz#3dbf984acb9d33a6878b46e6fb7afbd611856a60"
-  integrity sha1-Pb+YSsudM6aHi0bm+3r71hGFamA=
-
 bson@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.4.tgz#f76870d799f15b854dffb7ee32f0a874797f7e89"
@@ -7765,11 +7760,6 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
-hooks@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hooks/-/hooks-0.2.1.tgz#0f591b1b344bdcb3df59773f62fbbaf85bf4028b"
-  integrity sha1-D1kbGzRL3LPfWXc/Yvu6+Fv0Aos=
-
 hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
@@ -9435,14 +9425,6 @@ json-schema-ref-parser@^7.1.1:
     js-yaml "^3.13.1"
     ono "^6.0.0"
 
-json-schema-to-mongoose@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/json-schema-to-mongoose/-/json-schema-to-mongoose-0.2.2.tgz#8f0fafd6ce1854781db92f3a8ef5a9f48b21aadd"
-  integrity sha1-jw+v1s4YVHgduS86jvWp9Ishqt0=
-  dependencies:
-    lodash "^3.6.0"
-    mongoose "~3.6.18"
-
 json-schema-to-typescript@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/json-schema-to-typescript/-/json-schema-to-typescript-7.1.0.tgz#c98a8647718551a40f324448f53508d73c087911"
@@ -9544,11 +9526,6 @@ kdbush@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/kdbush/-/kdbush-3.0.0.tgz#f8484794d47004cc2d85ed3a79353dbe0abc2bf0"
   integrity sha512-hRkd6/XW4HTsA9vjVpY9tuXJYLSlelnkTmVFu4M9/7MIYQtFcHpbugAU7UbOfjOiVSVYl2fqgBuJ32JUmRo5Ew==
-
-kerberos@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/kerberos/-/kerberos-0.0.3.tgz#4285d92a0748db2784062f5adcec9f5956cb818a"
-  integrity sha1-QoXZKgdI2yeEBi9a3OyfWVbLgYo=
 
 keypress@0.1.x:
   version "0.1.0"
@@ -9965,11 +9942,6 @@ lodash.uniq@^4.5.0:
 lodash@3.0.x:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.0.1.tgz#14d49028a38bc740241d11e2ecd57ec06d73c19a"
-
-lodash@^3.6.0:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
 lodash@^4.0.0, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.4:
   version "4.17.5"
@@ -10671,15 +10643,6 @@ mongodb-memory-server@^6.6.1:
   dependencies:
     mongodb-memory-server-core "6.6.1"
 
-mongodb@1.3.19:
-  version "1.3.19"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-1.3.19.tgz#f229db24098f019d86d135aaf8a1ab5f2658b1d4"
-  integrity sha1-8inbJAmPAZ2G0TWq+KGrXyZYsdQ=
-  dependencies:
-    bson "0.2.2"
-  optionalDependencies:
-    kerberos "0.0.3"
-
 mongodb@3.5.9, mongodb@^3.1.0:
   version "3.5.9"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.5.9.tgz#799b72be8110b7e71a882bb7ce0d84d05429f772"
@@ -10745,20 +10708,6 @@ mongoose@5.9.25:
     sift "7.0.1"
     sliced "1.0.1"
 
-mongoose@~3.6.18:
-  version "3.6.20"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-3.6.20.tgz#47263843e6b812ea207eec104c40a36c8d215f53"
-  integrity sha1-RyY4Q+a4EuogfuwQTECjbI0hX1M=
-  dependencies:
-    hooks "0.2.1"
-    mongodb "1.3.19"
-    mpath "0.1.1"
-    mpromise "0.2.1"
-    ms "0.1.0"
-    muri "0.3.1"
-    regexp-clone "0.0.1"
-    sliced "0.0.5"
-
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -10778,22 +10727,10 @@ mozjpeg@^5.0.0:
     bin-wrapper "^3.0.0"
     logalot "^2.0.0"
 
-mpath@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.1.1.tgz#23da852b7c232ee097f4759d29c0ee9cd22d5e46"
-  integrity sha1-I9qFK3wjLuCX9HWdKcDunNItXkY=
-
 mpath@0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.7.0.tgz#20e8102e276b71709d6e07e9f8d4d0f641afbfb8"
   integrity sha512-Aiq04hILxhz1L+f7sjGyn7IxYzWm1zLNNXcfhDtx04kZ2Gk7uvFdgZ8ts1cWa/6d0TQmag2yR8zSGZUmp0tFNg==
-
-mpromise@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/mpromise/-/mpromise-0.2.1.tgz#fbbdc28cb0207e49b8a4eb1a4c0cea6c2de794c8"
-  integrity sha1-+73CjLAgfkm4pOsaTAzqbC3nlMg=
-  dependencies:
-    sliced "0.0.4"
 
 mquery@3.2.2:
   version "3.2.2"
@@ -10805,11 +10742,6 @@ mquery@3.2.2:
     regexp-clone "^1.0.0"
     safe-buffer "5.1.2"
     sliced "1.0.1"
-
-ms@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.1.0.tgz#f21fac490daf1d7667fd180fe9077389cc9442b2"
-  integrity sha1-8h+sSQ2vHXZn/RgP6QdzicyUQrI=
 
 ms@2.0.0:
   version "2.0.0"
@@ -10842,11 +10774,6 @@ multipipe@^0.1.2:
   resolved "https://registry.yarnpkg.com/multipipe/-/multipipe-0.1.2.tgz#2a8f2ddf70eed564dff2d57f1e1a137d9f05078b"
   dependencies:
     duplexer2 "0.0.2"
-
-muri@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/muri/-/muri-0.3.1.tgz#861889c5c857f1a43700bee85d50731f61727c9a"
-  integrity sha1-hhiJxchX8aQ3AL7oXVBzH2FyfJo=
 
 murmurhash-js@^1.0.0:
   version "1.0.0"
@@ -13623,10 +13550,6 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexp-clone@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-0.0.1.tgz#a7c2e09891fdbf38fbb10d376fb73003e68ac589"
-
 regexp-clone@1.0.0, regexp-clone@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/regexp-clone/-/regexp-clone-1.0.0.tgz#222db967623277056260b992626354a04ce9bf63"
@@ -14460,11 +14383,6 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
-
-sliced@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/sliced/-/sliced-0.0.4.tgz#34f89a6db1f31fa525f5a570f5bcf877cf0955ee"
-  integrity sha1-NPiabbHzH6Ul9aVw9bz4d88JVe4=
 
 sliced@0.0.5:
   version "0.0.5"
